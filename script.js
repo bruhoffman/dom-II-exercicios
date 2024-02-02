@@ -11,9 +11,6 @@ function adicionaItem (){
 
 function removeItem(event){
 
-    const containerPai = document.getElementById("container");
-    const itemSerRemovido = event.target;
-    const noRemovido = containerPai.removeChild(itemSerRemovido);
-    
+    const itemSerRemovido = event.target.remove();
 
 }
